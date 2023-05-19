@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="/task 1/internet.png">
+    <title>task 3 canvas</title>
+  </head>
+  <body>
+    <h1>task 3 canvas</h1>
+    <canvas id="my-canvas"></canvas>
+    <script>
+      var canvas = document.getElementById("my-canvas");
+      var ctx = canvas.getContext("2d");
+      ctx.fillStyle = "orange";
+      ctx.fillRect(10, 10, 500, 50);
+      ctx.fillStyle = "white";
+      ctx.fillRect(10, 60, 500, 50);
+      ctx.fillStyle = "green";
+      ctx.fillRect(10, 120, 500, 50);
+    </script>
+  </body>
+</html>

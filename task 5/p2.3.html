@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table and Link Color Change</title>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+		}
+		td:hover {
+			background-color: lightblue;
+		}
+		a:link{
+            color: blue;
+        }
+         a:visited {
+			color: rgb(0, 0, 0);
+		}
+		a:hover {
+			color: rgb(201, 2, 2);
+		}
+        a.visit:visited {
+  color: green;
+}
+h1.que{
+    font-size: 18px;
+}
+h2{
+    text-align: left;
+}
+
+ 
+	</style>
+</head>
+<body><center>
+<h1 class="que" ><li> html page using css that changes color of the table cells onmousehover. It should also change the colors of the links (default link/ link onmousehover and visited link)</li></h1>
+<h2><b>Ans: </b></h2>
+<table>
+        <tr>
+            <th>Heading 1</th>
+			<th>Heading 2</th>
+			<th>Heading 3</th>
+		</tr>
+		<tr>
+			<td>Cell 1</td>
+			<td>Cell 2</td>
+			<td>Cell 3</td>
+		</tr>
+		<tr>
+            <td>Cell 4</td>
+			<td>Cell 5</td>
+			<td>Cell 6</td>
+		</tr>
+		<tr>
+			<td>Cell 7</td>
+			<td>Cell 8</td>
+			<td>Cell 9</td>
+		</tr>
+	</table>
+</center>
+	<br>
+	<h1><b> unvisited link for blue :<a href="sign in.html" target="_blank">This is prectical 2</a></b></h1>
+<h1><b> visited link for green :<a class="visit" href="p2.html">visited link</a></b></h1>
+ 
+<h1><b>hover effect for red:<a href="#">Hover Link</a></b></h1>	
+</body>
+</html>
